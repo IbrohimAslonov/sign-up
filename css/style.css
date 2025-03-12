@@ -1,0 +1,202 @@
+/* @import url(../assets/fonts/SourceSans3-Light.ttf);
+@import url(../assets/fonts/SourceSans3-Regular.ttf);
+@import url(../assets/fonts/SourceSans3-Medium.ttf);
+@import url(../assets/fonts/SourceSans3-Black.ttf);
+@import url(../assets/fonts/SourceSans3-Black.ttf); */
+
+@font-face {
+  font-family: "Sanslight";
+  src: url(../assets/fonts/SourceSans3-Light.ttf);
+}
+
+@font-face {
+  font-family: "Sansregular";
+  src: url(../assets/fonts/SourceSans3-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Sansmedium";
+  src: url(../assets/fonts/SourceSans3-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Sansblack";
+  src: url(../assets/fonts/SourceSans3-Black.ttf);
+}
+
+@font-face {
+  font-family: "Sansbold";
+  src: url(../assets/fonts/SourceSans3-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Sansmedium";
+}
+
+.container {
+  /* 1336-98*2+20*2=1180px */
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .menu-links {
+  gap: 35px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Sansregular";
+}
+
+.log-in,
+.account,
+.language {
+  padding: 2px 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.form .log-in {
+  color: #01bab3;
+  border: none;
+}
+
+#first-step {
+  background-color: #f4f8fa;
+}
+
+.first-step {
+  padding-top: 24px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  margin: 0 auto;
+  width: 496px;
+  padding: 40px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 5px 5px #0000000a;
+}
+
+.form h2 {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 38px;
+  font-family: "Sansmedium";
+}
+
+.form .question {
+  margin-top: 10px;
+  margin-bottom: 56px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Sansregular";
+}
+
+.form-label {
+  padding-top: 24px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstname,
+.lastname,
+.birthday,
+.skyp,
+.promo {
+  display: flex;
+  flex-direction: column;
+}
+
+.continue {
+  padding: 12px 160px;
+  gap: 18px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "Sansregular";
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: #01bab3;
+}
+
+.first-step .title {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Sansregular";
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px 16px;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+.gender-list {
+  margin-top: 10px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gender-list .input {
+  width: 200px;
+  padding: 10px 16px;
+  gap: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row-reverse;
+  border: 1px solid #d9d9d9;
+}
+
+.gender-list .input input {
+  margin-top: 0;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}

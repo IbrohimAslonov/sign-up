@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIRST STEP</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar container">
+        <a class="logo">
+          <img src="assets/images/logo.svg" alt="" />
+        </a>
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="menu-item"><a herf="#">Services</a></li>
+            <li class="menu-item"><a herf="#">About </a></li>
+            <li class="menu-item"><a herf="#">Contacts</a></li>
+            <li class="menu-item"><a class="log-in" herf="#">Log in</a></li>
+            <li class="menu-item">
+              <a class="account" herf="#">Open an account</a>
+            </li>
+            <select name="" id="language">
+              <option selected value="">EN</option>
+              <option value="">UZB</option>
+              <option value="">RUS</option>
+              <option value="">CHN</option>
+            </select>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="first-step">
+      <div class="first-step container">
+        <div class="form">
+          <img src="assets/images/logo.svg" alt="" />
+          <h2>Welcome to ByTrend!</h2>
+          <div class="question">
+            <span>Already have an account?</span>
+            <a class="log-in" href="#">Log in</a>
+          </div>
+          <form class="form-label" action="">
+            <div class="name">
+              <div class="firstname">
+                <label for="firstName">First name*</label>
+                <input
+                  required
+                  placeholder="Your firstname"
+                  type="text"
+                  id="firstName"
+                />
+              </div>
+              <div class="lastname">
+                <label for="lastName">Last name*</label>
+                <input
+                  required
+                  placeholder="Your surname"
+                  type="text"
+                  id="lastName"
+                />
+              </div>
+            </div>
+
+            <div class="birthday">
+              <label for="birthday">Birth date*</label>
+              <input required type="date" id="birthday" />
+            </div>
+
+            <div class="gender">
+              <label for="">Gender*</label>
+              <div class="gender-list">
+                <div class="input">
+                  <label for="female">Female</label>
+                  <input
+                    required
+                    placeholder="Female"
+                    type="radio"
+                    name="gender"
+                    id="female"
+                  />
+                </div>
+
+                <div class="input">
+                  <label for="male">Male</label>
+                  <input
+                    placeholder="Male"
+                    type="radio"
+                    name="gender"
+                    id="male"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="skyp">
+              <label for="skyp">Skype</label>
+              <input placeholder="Your login Skype" type="text" id="skyp" />
+            </div>
+
+            <div class="promo">
+              <label for="promo">Promo</label>
+              <input placeholder="Your promo" type="text" id="promo" />
+            </div>
+
+            <button class="continue" type="submit">
+              Continue <img src="assets/images/next-Icon.svg" alt="" />
+            </button>
+
+            <!-- <a href="./pages/second-step.html" class="continue" type="submit">
+              Continue <img src="assets/images/next-Icon.svg" alt="" />
+            </a> -->
+          </form>
+        </div>
+        <span class="title"
+          >©2020 All Rights Reserved. Lorem Technologies, Inc.</span
+        >
+      </div>
+    </section>
+  </body>
+</html>
